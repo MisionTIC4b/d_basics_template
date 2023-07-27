@@ -4,7 +4,7 @@
 
 En este ejemplo se implementa un conversor binario-decimal para ejecución desde consola, busca los comentario con todo
 
-Solución: https://github.com/MisionTIC4b/d_basics_template
+Solución: https://github.com/MisionTIC4b/d_basics
 
 Para ejecutar:   
 dart run
