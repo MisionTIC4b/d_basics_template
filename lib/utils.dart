@@ -4,6 +4,6 @@ abstract class Utils {
   }
 
   static String dec2bin(String decimal) {
-    // todo: convierte [decimal] en un [int] de base 10 y luego conviertelo a base 2
+    return int.parse(decimal, radix: 10).toRadixString(2);
   }
 }

@@ -10,11 +10,11 @@ void main(List<String> arguments) {
   int option = int.parse(stdin.readLineSync()!);
   if (option == 1) {
     print("Escribe el numero binario:");
-    converter.binary = stdin.readLineSync();
+    converter.binary = stdin.readLineSync()!;
     print('Decimal: ${converter.convertBinary()}');
   } else if (option == 2) {
     print("Escribe el numero decimal:");
-    converter.decimal = stdin.readLineSync();
+    converter.decimal = stdin.readLineSync()!;
     print('Binario: ${converter.convertDecimal()}');
   }
 }
