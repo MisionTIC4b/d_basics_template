@@ -1,15 +1,11 @@
 import 'Utils.dart';
 
 class MyConverter {
-  // todo: Define dos varibles late privadas String [_binary] y [_decimal]
+  // todo: Define dos varibles late  String [binary] y [decimal]
 
   MyConverter() {
-    // todo: Inicializa [_binary] y [_decimal] en ['0']
+    // todo: Inicializa [binary] y [decimal] en ['0']
   }
-
-  // TODO: Crea un [setter] y [getter] para [binary] .
-
-  // TODO: Crea un [setter] y [getter] para [decimal].
 
   String convertBinary() {
     // todo: Usa [Util] para convertir el numero binario a un numero decimal.
